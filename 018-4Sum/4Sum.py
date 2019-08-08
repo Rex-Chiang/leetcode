@@ -5,7 +5,7 @@ class Solution(object):
             # 設定 window 左右邊界
             l = i + 1; r = len(nums) - 1
             # 若最小值乘3大於target 或者 最大值乘3小於target則跳出迴圈
-	    # key point
+	        # key point
             if target < 3*nums[i] or target > 3*nums[len(nums) - 1]:
                 break
             # nums[i] != nums[i-1] 若本位與前一位相同避免重複比對
@@ -41,7 +41,7 @@ class Solution(object):
         # len(nums)-3 原因為 window 最小需為4
         for i in range(len(nums)-3):
             # 若最小值乘4大於target 或者 最大值乘4小於target則跳出迴圈
-	    # key point
+	        # key point
             if target < 4*nums[i] or target > 4*nums[len(nums) - 1]:
                 break
             # nums[i] != nums[i-1] 若本位與前一位相同避免重複比對
