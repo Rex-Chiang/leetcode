@@ -12,7 +12,6 @@ class Solution:
             res.append(path)
             return
         for i in range(index, len(nums)):
-            print(id(path), path)
             #　當 target 小於 0 便無繼續必要
             if nums[i] > target:
                 break
