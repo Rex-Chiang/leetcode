@@ -8,6 +8,7 @@ class Solution:
             # 且向後更新目前最大值(間接形成SubArray)
             if nums[i] > 0:
                 nums[i+1] += nums[i]
+                
         return max(nums)
             
 if __name__ == "__main__":
