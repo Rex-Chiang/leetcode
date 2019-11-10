@@ -14,6 +14,7 @@ class Solution:
                 # 若元素轉變則暫存目前計數狀況至tmp，並將cur及count重置為新的狀況
                 else:
                     tmp += str(count) + cur
+                    # 元素轉變為 1或 2
                     cur = i
                     count = 1
                     
