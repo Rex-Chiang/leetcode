@@ -11,6 +11,7 @@ class Solution:
         
         while len(tmp_res) < numRows:
             tmp_res = []
+            # 前後加 0以利兩兩相加
             tmp = [0] + tmp + [0]
             
             for i in range(0, len(tmp)-1):
